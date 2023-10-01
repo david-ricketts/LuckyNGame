@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { getRolls, sum} from "./utils";
-import './Lucky7.css'
+
 
 function Lucky7() {
     const [dice, setDice] = useState(getRolls(2));
